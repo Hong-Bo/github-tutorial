@@ -31,15 +31,27 @@ Following the instructions below, you can create the repository you need.
 1. [Generate a new SSH key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 2. [Add it to you GitHub Account](https://help.github.com/articles/adding-a-new-gpg-key-to-your-github-account/)
 3. Open terminal and change into the working directory
-3. Initilize the local directory as a Git repository
+4. Initilize the local directory as a Git repository
 ```
 $ git init
 ```
-4. Add the files in your new local repository
+5. Add the files to your new local repository
 ```
 $ git add .
 ```
-
+6. Commit the files that you've staged in your local repository
+```
+$ git commit -m "Repository Created"
+```
+7. Create an empty repository on GitHub and copy the remote repository URL
+8. In Terminal, add the URL for the remote repository where your local repository will be pushed
+```
+$ git remote add origin [copied URL here]
+'''
+9. Push the changes in your local repository to GitHub
+```
+$ git push -u origin master
+```
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
