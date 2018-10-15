@@ -46,8 +46,8 @@ $ git commit -m "Repository Created"
 7. Create an empty repository on GitHub and copy the remote repository URL
 8. In Terminal, add the URL for the remote repository where your local repository will be pushed
 ```
-$ git remote add origin [copied URL here]
-'''
+$ git remote add origin [paste copied URL here]
+```
 9. Push the changes in your local repository to GitHub
 ```
 $ git push -u origin master
