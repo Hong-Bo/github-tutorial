@@ -52,9 +52,11 @@ $ git remote add origin [paste copied URL here]
 ```
 $ git push -u origin master
 ```
-## Deployment
+## Create/Delete a branch
 
-Add additional notes about how to deploy this on a live system
+### On GitHub
+
+You can create or delete branches directly on GitHub, simply following the instructions.
 
 ## Authors
 
