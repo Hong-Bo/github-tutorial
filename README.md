@@ -32,13 +32,13 @@ Following the instructions below, you can create the repository you need.
 2. [Add it to you GitHub Account](https://help.github.com/articles/adding-a-new-gpg-key-to-your-github-account/)
 3. Open terminal and change into the working directory
 3. Initilize the local directory as a Git repository
-'''
+```
 $ git init
-'''
+```
 4. Add the files in your new local repository
-'''
+```
 $ git add .
-'''
+```
 
 ## Deployment
 
