@@ -10,21 +10,17 @@ There are several things that need to be done in advance:
 2. 
 
 
-## Running the tests
+## Create a repository
 
-Explain how to run the automated tests for this system
+A repository can be created in several ways
 
-### Break down into end to end tests
+### Using GitHub
 
-Explain what these tests test and why
+You can create a repository following the simple creation instructions. Do not forget initialize your repository with a README.
 
-```
-Give an example
-```
+### From local files
 
-### And coding style tests
-
-Explain what these tests test and why
+More than often, you have already written down 
 
 ```
 Give an example
