@@ -7,23 +7,25 @@ This tutorial covers some basic and useful usages of git, especially topics rela
 
 There are several things that need to be done in advance:
 1. Create an account at [GitHub](https://pages.github.com/)
-2. 
+2. Get a computer, Mac/Linux/Windows
 
 
 ## Create a repository
 
-A repository can be created in several ways
+A repository can be created in several ways:
 
 ### Using GitHub
 
-You can create a repository following the simple creation instructions. Do not forget initialize your repository with a README.
+You can create a repository on GitHub following the simple creation instructions. Do not forget initialize your repository with a README.
 
 ### From local files
 
-More than often, you have already written down 
+More than often, you have developed some parts of a project before you realize that you want to put it on GitHub. Is it a little late? Don't worry. You can put your files on GitHub anytime you want.
 
+Suppose you have a folder like this
 ```
-Give an example
+/hello
+    say_hello.py
 ```
 
 ## Deployment
