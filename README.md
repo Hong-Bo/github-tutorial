@@ -1,35 +1,14 @@
 # github-tutorial
-This tutorial covers some basic and useful usages of git, especially usages with respect to repositories and branchs.
+This tutorial covers some basic and useful usages of git, especially topics related to repositories and branches.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ### Prerequisites
 
-What things you need to install the software and how to install them
+There are several things that need to be done in advance:
+1. Create an account at [GitHub](https://pages.github.com/)
+2. 
 
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
