@@ -27,6 +27,9 @@ Suppose you have a folder like this
 /hello
     say_hello.py
 ```
+Following the instructions below, you can create the repository you need.
+1. [Generate a new SSH key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+2. [Add it to you GitHub Account](https://help.github.com/articles/adding-a-new-gpg-key-to-your-github-account/)
 
 ## Deployment
 
