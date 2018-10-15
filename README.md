@@ -58,6 +58,26 @@ $ git push -u origin master
 
 You can create or delete branches directly on GitHub, simply following the instructions.
 
+### Create a new branch using cmd lines
+1. Create the branch on your local machine and switch in this branch
+```
+$ git checkout -b [new_branch_name]
+```
+2. Push the branch on github :
+```
+$ git push origin [new_branch_name]
+```
+
+### Delete a branch using cmd lines
+1. Delete a branch on your local filesystem (checkout first):
+```
+$ git branch -d [branch_name]
+```
+2. Delete the branch on github :
+```
+$ git push origin :[branch_name]
+```
+
 ## Authors
 
 * **Hong-Bo Deng** - *Initial work* - [Hong-Bo](https://github.com/Hong-Bo)
