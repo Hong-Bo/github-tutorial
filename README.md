@@ -16,7 +16,7 @@ A repository can be created in several ways:
 
 ### Using GitHub
 
-You can create a repository on GitHub following the simple creation instructions. Do not forget initialize your repository with a README.
+You can create a repository on GitHub following the simple creation instructions. Do not forget initializing your repository with a README.
 
 ### From local files using cmd lines
 
