@@ -13,18 +13,37 @@ There are several things that need to be done in advance:
 
 You can set up your email address and username locally or globally, which means setting them up for a single repository or for every repository on your computer.
 
-### Locally
+### 1. Locally
+
 1. Open Terminal.
 2. Change the current working directory to the local repository where you want to configure the name that is associated with your Git commits.
 3. Set your email address and username:
+
 ```
 git config user.email "john.snow@example.com"
 git config user.name "John Snow"
 ```
+
 4. Confirm that you have set the Git username correctly:
 ```
 git config user.email 
 git config user.name
+```
+
+### 2. Globally
+
+1. Open Terminal.
+2. Set your email address and username:
+
+```
+git config --global user.email "john.snow@example.com"
+git config --global user.name "John Snow"
+```
+
+3. Confirm that you have set the Git username correctly:
+```
+git config --global user.email 
+git config --global user.name
 ```
 
 ## Create a repository
