@@ -91,6 +91,16 @@ $ git push -u origin master
 
 ## 3. Authenticate with GitHub from Git When Cloning
 
+When you connect to a GitHub repository from Git, you'll need to authenticate with GitHub using either HTTPS or SSH. Click (this link)[https://help.github.com/articles/which-remote-url-should-i-use/] if you are not farmiliar with these two kinds of connecting methods.
+
+![Image text](img/ssh_https.jpg)
+
+### 3.1 Connecting over HTTPS (recommended)
+If you clone with HTTPS, you can cache your GitHub password in Git using a credential helper.
+
+### 3.2 Connecting over SSH
+If you clone with SSH, you must generate SSH keys on each computer you use to push or pull from GitHub.
+
 ## 4. Create/Delete a branch
 
 ### 4.1 On GitHub
