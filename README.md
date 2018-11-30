@@ -14,11 +14,11 @@ There are several things that need to be done in advance:
 
 A repository can be created in several ways:
 
-### Using GitHub
+### 1. Using GitHub
 
 You can create a repository on GitHub following the simple creation instructions. Do not forget initializing your repository with a README.
 
-### From local files using cmd lines
+### 2. From local files using cmd lines
 
 More than often, you have developed some parts of a project before you realize that you want to put it on GitHub. Is it a little late? Don't worry. You can put your files on GitHub anytime you want.
 
