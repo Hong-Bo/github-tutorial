@@ -89,13 +89,15 @@ $ git remote add origin [paste copied URL here]
 $ git push -u origin master
 ```
 
-## 3. Create/Delete a branch
+## 3. Authenticate with GitHub from Git When Cloning
 
-### 3.1 On GitHub
+## 4. Create/Delete a branch
+
+### 4.1 On GitHub
 
 You can create or delete branches directly on GitHub, simply following the instructions.
 
-### 3.2 Create a new branch using cmd lines
+### 4.2 Create a new branch using cmd lines
 1. Create the branch on your local machine and switch in this branch
 ```
 $ git checkout -b [new_branch_name]
@@ -105,7 +107,7 @@ $ git checkout -b [new_branch_name]
 $ git push origin [new_branch_name]
 ```
 
-### 3.3 Delete a branch using cmd lines
+### 4.3 Delete a branch using cmd lines
 1. Delete a branch on your local filesystem (checkout first):
 ```
 $ git branch -d [branch_name]
