@@ -1,5 +1,5 @@
-# github-tutorial
-This tutorial covers some basic and useful usages of git, especially topics related to repositories and branches.
+# Github Tutorial
+This document is a minimum tutorial of using git. It covers the most practical and fundamental usages of git, especially topics related to repositories and branches.
 
 ## Getting Started
 
@@ -9,6 +9,23 @@ There are several things that need to be done in advance:
 1. Create an account at [GitHub](https://pages.github.com/)
 2. Get a computer, Mac/Linux/Windows
 
+## Set up your Git
+
+You can set up your email address and username locally or globally, which means setting them up for a single repository or for every repository on your computer.
+
+### Locally
+1. Open Terminal.
+2. Change the current working directory to the local repository where you want to configure the name that is associated with your Git commits.
+3. Set your email address and username:
+```
+git config user.email "john.snow@example.com"
+git config user.name "John Snow"
+```
+4. Confirm that you have set the Git username correctly:
+```
+git config user.email 
+git config user.name
+```
 
 ## Create a repository
 
