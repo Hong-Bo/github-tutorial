@@ -1,7 +1,7 @@
 # Github Tutorial
 This document is a minimum tutorial of using git. It covers the most practical and fundamental usages of git, especially topics related to repositories and branches.
 
-## Getting Started
+## 0. Getting Started
 
 ### Prerequisites
 
@@ -9,11 +9,11 @@ There are several things that need to be done in advance:
 1. Create an account at [GitHub](https://pages.github.com/)
 2. Get a computer, Mac/Linux/Windows
 
-## Set up your Git
+## 1. Set up your Git
 
 You can set up your email address and username locally or globally, which means setting them up for a single repository or for every repository on your computer.
 
-### 1. Locally
+### 1.1. Locally
 
 1. Open Terminal.
 2. Change the current working directory to the local repository where you want to configure the name that is associated with your Git commits.
@@ -30,7 +30,7 @@ git config user.email
 git config user.name
 ```
 
-### 2. Globally
+### 1.2. Globally
 
 1. Open Terminal.
 2. Set your email address and username:
@@ -46,15 +46,15 @@ git config --global user.email
 git config --global user.name
 ```
 
-## Create a repository
+## 2. Create a repository
 
 A repository can be created in several ways:
 
-### 1. Using GitHub
+### 2.1. Using GitHub
 
 You can create a repository on GitHub following the simple creation instructions. Do not forget initializing your repository with a README.
 
-### 2. From local files using cmd lines
+### 2.2. From local files using cmd lines
 
 More than often, you have developed some parts of a project before you realize that you want to put it on GitHub. Is it a little late? Don't worry. You can put your files on GitHub anytime you want.
 
@@ -88,13 +88,14 @@ $ git remote add origin [paste copied URL here]
 ```
 $ git push -u origin master
 ```
-## Create/Delete a branch
 
-### On GitHub
+## 3. Create/Delete a branch
+
+### 3.1 On GitHub
 
 You can create or delete branches directly on GitHub, simply following the instructions.
 
-### Create a new branch using cmd lines
+### 3.2 Create a new branch using cmd lines
 1. Create the branch on your local machine and switch in this branch
 ```
 $ git checkout -b [new_branch_name]
@@ -104,7 +105,7 @@ $ git checkout -b [new_branch_name]
 $ git push origin [new_branch_name]
 ```
 
-### Delete a branch using cmd lines
+### 3.3 Delete a branch using cmd lines
 1. Delete a branch on your local filesystem (checkout first):
 ```
 $ git branch -d [branch_name]
