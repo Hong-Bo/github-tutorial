@@ -91,15 +91,37 @@ $ git push -u origin master
 
 ## 3. Authenticate with GitHub from Git When Cloning
 
-When you connect to a GitHub repository from Git, you'll need to authenticate with GitHub using either HTTPS or SSH. Click (this link)[https://help.github.com/articles/which-remote-url-should-i-use/] if you are not farmiliar with these two kinds of connecting methods.
+When you connect to a GitHub repository from Git, you'll need to authenticate with GitHub using either HTTPS or SSH. Click [this link](https://help.github.com/articles/which-remote-url-should-i-use/) if you are not farmiliar with these two kinds of connecting methods.
 
 ![Image text](img/ssh_https.jpg)
 
-### 3.1 Connecting over HTTPS (recommended)
+### 3.1 Connecting over HTTPS
+
 If you clone with HTTPS, you can cache your GitHub password in Git using a credential helper.
 
+1. Find out if Git and the osxkeychain helper are already installed:
+
+```
+git credential-osxkeychain
+```
+
+2. Tell Git to use osxkeychain helper using the global credential.helper config:
+
+```
+git config --global credential.helper osxkeychain
+```
+
+The next time you clone an HTTPS URL that requires a password, you'll be prompted for your username and password, and to grant access to the OSX keychain. After you've done this, the username and password are stored in your keychain and you won't be required to type them in to Git again.
+
 ### 3.2 Connecting over SSH
+
 If you clone with SSH, you must generate SSH keys on each computer you use to push or pull from GitHub.
+
+1. Open terminal
+
+2. [Generate a new SSH key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+
+3. [Add it to you GitHub Account](https://help.github.com/articles/adding-a-new-gpg-key-to-your-github-account/)
 
 ## 4. Create/Delete a branch
 
