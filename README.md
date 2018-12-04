@@ -6,7 +6,9 @@ This document is a minimum tutorial of using git. It covers the most practical a
 ### Prerequisites
 
 There are several things that need to be done in advance:
+
 1. Create an account at [GitHub](https://pages.github.com/)
+
 2. Get a computer, Mac/Linux/Windows
 
 ## 1. Set up your Git
@@ -16,7 +18,9 @@ You can set up your email address and username locally or globally, which means 
 ### 1.1. Locally
 
 1. Open Terminal.
+
 2. Change the current working directory to the local repository where you want to configure the name that is associated with your Git commits.
+
 3. Set your email address and username:
 
 ```
@@ -25,6 +29,7 @@ git config user.name "John Snow"
 ```
 
 4. Confirm that you have set the Git username correctly:
+
 ```
 git config user.email 
 git config user.name
@@ -33,6 +38,7 @@ git config user.name
 ### 1.2. Globally
 
 1. Open Terminal.
+
 2. Set your email address and username:
 
 ```
@@ -41,6 +47,7 @@ git config --global user.name "John Snow"
 ```
 
 3. Confirm that you have set the Git username correctly:
+
 ```
 git config --global user.email 
 git config --global user.name
@@ -64,26 +71,38 @@ Suppose you have a folder like this
     say_hello.py
 ```
 Following the instructions below, you can create the repository you need.
+
 1. [Generate a new SSH key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+
 2. [Add it to you GitHub Account](https://help.github.com/articles/adding-a-new-gpg-key-to-your-github-account/)
+
 3. Open terminal and change into the working directory
+
 4. Initilize the local directory as a Git repository
+
 ```
 $ git init
 ```
+
 5. Add the files to your new local repository
+
 ```
 $ git add .
 ```
+
 6. Commit the files that you've staged in your local repository
+
 ```
 $ git commit -m "Repository Created"
 ```
+
 7. Create an empty repository on GitHub and copy the remote repository URL
+
 8. In Terminal, add the URL for the remote repository where your local repository will be pushed
 ```
 $ git remote add origin [paste copied URL here]
 ```
+
 9. Push the changes in your local repository to GitHub
 ```
 $ git push -u origin master
@@ -140,14 +159,40 @@ $ git push origin [new_branch_name]
 ```
 
 ### 4.3 Delete a branch using cmd lines
+
 1. Delete a branch on your local filesystem (checkout first):
+
 ```
 $ git branch -d [branch_name]
 ```
+
 2. Delete the branch on github :
+
 ```
 $ git push origin :[branch_name]
 ```
+
+## 5. Practice 
+
+1. Create a repository from local files
+
+2. Remove local files
+
+3. Clone the repository using https
+
+4. Set up your email and username locally
+
+5. Authenticate the cloned repository using osxkeychain
+
+6. Change some codes and push them to remote repository
+
+7. Now that git has remembered your name and password, make another change and push it to remote repository
+
+8. Create a new branch from terminal
+
+9. Delete the created branch from terminal
+
+Congratulations!!! You have succeeded in managing Git!
 
 ## Authors
 
