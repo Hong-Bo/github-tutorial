@@ -1,5 +1,5 @@
-# Github Tutorial
-This document is a minimum tutorial of using git. It covers the most practical and fundamental usages of git, especially topics related to repositories and branches.
+# Minimum Git
+This document is a minimum tutorial for using git. It covers the most practical and fundamental usages of git, especially topics related to repositories and branches.
 
 ## 0. Getting Started
 
@@ -138,9 +138,7 @@ If you clone with SSH, you must generate SSH keys on each computer you use to pu
 
 1. Open terminal
 
-2. [Generate a new SSH key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
-
-3. [Add it to you GitHub Account](https://help.github.com/articles/adding-a-new-gpg-key-to-your-github-account/)
+3. [Add your SSH public key to you GitHub Account](https://help.github.com/articles/adding-a-new-gpg-key-to-your-github-account/)
 
 ## 4. Create/Delete a branch
 
@@ -188,9 +186,13 @@ $ git push origin :[branch_name]
 
 7. Now that git has remembered your name and password, make another change and push it to remote repository
 
-8. Create a new branch from terminal
+8. Create a new branch using terminal
 
-9. Delete the created branch from terminal
+9. Change some codes and push the change to remote repository using the new branch
+
+10. Merge the change into master branch using the frontend of Github
+
+11. Delete the created branch using terminal
 
 Congratulations!!! You have succeeded in managing Git!
 
